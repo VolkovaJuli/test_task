@@ -1,0 +1,107 @@
+* {
+    outline: inherit;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content button {
+    margin: 0 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.content input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.header {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row__cell:first-child {
+    border-left: 1px solid #000000;
+}
+
+.row__cell {
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    flex: 1;
+    height: 30px;
+    align-items: center;
+}
+
+.row__cell--first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row__cell--second {
+    display: flex;
+    justify-content: center;
+}
+
+.row__cell--third {
+    display: flex;
+    justify-content: space-around;
+}
+
+.table__header {
+    display: flex;
+    border-left: 1px solid #000000;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;;
+}
+
+.header__cell {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    border-right: 1px solid #000000;
+    height: 30px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+}
+
+.header__wrapper {
+    display: flex;
+    flex: 1;
+}
+
+.header__wrapper--right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.filter {
+    flex: 1;
+}
+
+.table__footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.table__footer input{
+    margin: 0 5px;
+}
+
+.name-input {
+    flex: 2;
+}
+
+.price-input {
+    flex: 1;
+}

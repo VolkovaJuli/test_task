@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel = "stylesheet" href = "./style/style.css">
+</head>
+<body>
+<script async src = "main.js"></script>
+
+<div class="content">
+    <div class="header">
+        <div class="header__wrapper header__wrapper--left">
+            <input id='filter-input' type="text" class="filter">
+            <button id="filter">Search</button>
+        </div>
+        <div class="header__wrapper header__wrapper--right">
+            <button id="add-new">Add new</button>
+        </div>
+    </div>
+    <div class="table">
+        <div class="table__header">
+            <div class="header__cell">Name<span class="sort-name" id="sort-name">&#9660;</span></div>
+            <div class="header__cell">Price<span class="sort-price" id="sort-price">&#9660;</span></div>
+            <div class="header__cell">Actions</div>
+        </div>
+        <div id='content' class="table__content">
+        </div>
+        <div class="table__footer">
+            <input id="name-input" class="name-input" type="text">
+            <input id="count-input" class="count-input" type="text">
+            <input id="price-input" class="price-input" type="text">
+            <button id="submit-btn">Add/Update</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
